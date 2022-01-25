@@ -12,18 +12,18 @@ var gravity = 0.05;
 var thrust, crash, land, rcs_left, rcs_right, normal, obstacleImg, lzImg, lz;
 
 function preload() {
-  landerImg = loadImage("assets/lunar.png");
-  bgImg = loadImage("assets/bg.png");
+  landerImg = loadImage("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/lunar.png");
+  bgImg = loadImage("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/bg.png");
 
-  thrust = loadAnimation("assets/b_thrust_1.png", "assets/b_thrust_2.png", "assets/b_thrust_3.png");
-  crash = loadAnimation("assets/crash1.png", "assets/crash2.png", "assets/crash3.png");
-  land = loadAnimation("assets/landing1.png", "assets/landing2.png", "assets/landing_3.png");
-  rcs_left = loadAnimation("assets/left_thruster_1.png", "assets/left_thruster_2.png");
-  rcs_right = loadAnimation("assets/right_thruster_1.png", "assets/right_thruster_2.png")
-  normal = loadAnimation("assets/normal.png");
+  thrust = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/b_thrust_1.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/b_thrust_2.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/b_thrust_3.png");
+  crash = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/crash1.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/crash2.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/crash3.png");
+  land = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/landing1.png", "assets/landing2.png", "assets/landing_3.png");
+  rcs_left = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/left_thruster_1.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/left_thruster_2.png");
+  rcs_right = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/right_thruster_1.png", "https://vajraadityavijay.github.io/WhJr_Game-v3/assets/right_thruster_2.png")
+  normal = loadAnimation("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/normal.png");
 
-  obstacleImg = loadImage("assets/obstacle.png");
-  lzImg = loadImage("assets/lz.png");
+  obstacleImg = loadImage("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/obstacle.png");
+  lzImg = loadImage("https://vajraadityavijay.github.io/WhJr_Game-v3/assets/lz.png");
 
   thrust.playing = true;
   thrust.looping = false;
